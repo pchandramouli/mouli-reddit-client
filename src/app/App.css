@@ -1,12 +1,20 @@
 .App {
   text-align: center;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #282c34;
+  padding: 2rem 0;
+  color: white;
 }
 
+h5 {
+  margin: 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,0 +1,31 @@
+.posts {
+  display: flex;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+.posts ul {
+  margin: 0;
+  padding: 0;
+}
+
+.posts ul li {
+  list-style-type: none;
+  margin: 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posts img.preview {
+  width: 640px;
+  height: 480px;
+}
+
+.posts hr {
+  background-color: lightsteelblue;
+  height: 1px;
+  border: 0;
+  margin: 1rem auto 0;
+  width: 100%;
+}
