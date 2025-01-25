@@ -11,9 +11,6 @@ export const Info = ({upvotes, downvotes}) => {
       <div>
         <img src={downvoteImg}/><span>{downvotes}</span>
       </div>
-      <div>
-        
-      </div>
     </div>
   );
 }

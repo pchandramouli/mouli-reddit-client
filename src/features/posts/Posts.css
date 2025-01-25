@@ -1,7 +1,6 @@
 .posts {
   display: flex;
   background-color: aliceblue;
-  padding: 2rem;
 }
 
 .posts ul {
@@ -11,10 +10,14 @@
 
 .posts ul li {
   list-style-type: none;
-  margin: 0 0 2rem;
+  margin: 2rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.posts h2, h5, p {
+  padding: 0 2rem;
 }
 
 .posts img.preview {
@@ -26,6 +29,12 @@
   background-color: lightsteelblue;
   height: 1px;
   border: 0;
-  margin: 1rem auto 0;
   width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .posts img.preview {
+    width: 480px;
+    height: 360px;
+  } 
 }
