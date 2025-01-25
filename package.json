@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "prop-types": "^15.8.1",
     "react-test-renderer": "^19.0.0",
     "webpack": "^5.97.1"
