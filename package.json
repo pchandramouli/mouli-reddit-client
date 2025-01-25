@@ -43,5 +43,10 @@
     "prop-types": "^15.8.1",
     "react-test-renderer": "^19.0.0",
     "webpack": "^5.97.1"
+  },
+  "overrides": {
+    "@testing-library/react": {
+      "react": "^19.0.0"
+    }
   }
 }
